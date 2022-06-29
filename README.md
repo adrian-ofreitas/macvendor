@@ -33,11 +33,11 @@ OSINT - This is a simple Python script to search payment of civil servant.
 options:
   -h, --help            show this help message and exit
   -v, --version         Version
-  -o ORG, --org ORG     Org to search
-  -d DATE, --date DATE  Date to search
+  -s MAC, --search MAC     Mac Address to Search to search
+  
 ```
 
 To search file with payments of June:
 ```
-python3 macvendor --mac AA:BB:CC:DD:EE:FF
+python3 macvendor --search AA:BB:CC:DD:EE:FF
 ```
