@@ -15,7 +15,7 @@
 # clone the repo
 $ git clone https://github.com/adrian-ofreitas/macvendor.git
 
-# change the working directory to sherlock
+# change the working directory to macvendor
 $ cd macvendor/
 
 # install the requirements
