@@ -25,7 +25,7 @@ class color:
 VERSION = "1.0"
 SAMPLES = """
 $ python3 macvendor --help
-usage: python main.py [-o ORG] [-d DATE]
+usage: python3 macvendor --search MAC-ADDRESS
 
 OSINT - This is a simple Python script to search payment of civil servant.
 
@@ -56,7 +56,7 @@ def search(mac_address):
 def main():  
     # Get arguments
     argp = ArgumentParser()
-    argp = ArgumentParser(description="This is a simple Python script to search mac vendor info", usage="python macvendor <MAC-ADDRESS>")    
+    argp = ArgumentParser(description="This is a simple Python script to search mac vendor info", usage="python macvendor --search <MAC-ADDRESS>")    
     argp.add_argument('-v', '--version', dest='version', action="store_true", help='Version')    
     argp.add_argument('-s', '--search', dest='mac_address', required=False, help='MAC Address to search')
     
